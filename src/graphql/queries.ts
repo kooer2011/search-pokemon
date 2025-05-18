@@ -73,7 +73,6 @@ export const GET_POKEMON_ATTACKS_RATING = gql`
   }
 `;
 
-
 export const GET_POKEMON_EVOLUTIONS = gql`
   query pokemon($id: String, $name: String) {
     pokemon(id: $id, name: $name) {
